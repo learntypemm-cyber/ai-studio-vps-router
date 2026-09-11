@@ -1,1 +1,10 @@
-{"manifest_version":3,"name":"AI Studio VPS Router","version":"1.0.0","permissions":["proxy","storage","webRequest","webRequestAuthProvider"],"background":{"service_worker":"background.js"},"action":{"default_popup":"popup.html"}}
+{
+  "manifest_version": 3,
+  "name": "AI Studio VPS Router",
+  "version": "1.0.0",
+  "description": "Route Chrome traffic through an authenticated VPS Squid proxy.",
+  "permissions": ["proxy", "storage", "webRequest", "webRequestAuthProvider"],
+  "host_permissions": ["<all_urls>"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html"}
+}
